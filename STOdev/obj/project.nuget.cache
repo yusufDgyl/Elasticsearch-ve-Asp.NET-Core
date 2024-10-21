@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0k+2TDiHRRg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yusuf\\Desktop\\STOdev\\STOdev\\STOdev.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yusuf\\.nuget\\packages\\elastic.clients.elasticsearch\\8.15.10\\elastic.clients.elasticsearch.8.15.10.nupkg.sha512",
+    "C:\\Users\\Yusuf\\.nuget\\packages\\elastic.transport\\0.4.26\\elastic.transport.0.4.26.nupkg.sha512",
+    "C:\\Users\\Yusuf\\.nuget\\packages\\htmlagilitypack\\1.11.67\\htmlagilitypack.1.11.67.nupkg.sha512"
+  ],
+  "logs": []
+}

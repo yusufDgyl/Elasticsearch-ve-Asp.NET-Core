@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "STOdev/1.0.0": {
+        "dependencies": {
+          "Elastic.Clients.Elasticsearch": "8.15.10",
+          "HtmlAgilityPack": "1.11.67"
+        },
+        "runtime": {
+          "STOdev.dll": {}
+        }
+      },
+      "Elastic.Clients.Elasticsearch/8.15.10": {
+        "dependencies": {
+          "Elastic.Transport": "0.4.26"
+        },
+        "runtime": {
+          "lib/net8.0/Elastic.Clients.Elasticsearch.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.15.10.0"
+          }
+        }
+      },
+      "Elastic.Transport/0.4.26": {
+        "runtime": {
+          "lib/net8.0/Elastic.Transport.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.4.26.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.67": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.67.0",
+            "fileVersion": "1.11.67.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "STOdev/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elastic.Clients.Elasticsearch/8.15.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WxbKk/PvNOhhGLkaqdrQwNWxiDtOYQJYZK6VwOkV65r7kQO+cpmjkYr/FoJ4ArfHFzZJf77VHNyvFSWDe3Vqzw==",
+      "path": "elastic.clients.elasticsearch/8.15.10",
+      "hashPath": "elastic.clients.elasticsearch.8.15.10.nupkg.sha512"
+    },
+    "Elastic.Transport/0.4.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZbVlxXn9fnZqMOyOESea5n17096Xa8EPI/I9yD65y6yPXZKrs4GcqKTjfYk0jkxsl3n+CpaNureMA+VutpLZzQ==",
+      "path": "elastic.transport/0.4.26",
+      "hashPath": "elastic.transport.0.4.26.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.67": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xnt6f8E56oK9nLqgkF42bsVSAkUuIuJnSfvzimK7GwvbhdXWRmGsx4A8AKmLOlCUq1rVSUADKalxnSMizHt4Mg==",
+      "path": "htmlagilitypack/1.11.67",
+      "hashPath": "htmlagilitypack.1.11.67.nupkg.sha512"
+    }
+  }
+}

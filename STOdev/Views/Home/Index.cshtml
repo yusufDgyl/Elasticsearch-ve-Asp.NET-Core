@@ -1,0 +1,25 @@
+﻿@model STOdev.ViewModels.SearchVM
+
+<h2>Link Ara</h2>
+
+<form action="/Home/Search" method="post">
+	<input type="text" name="SearchTerm" placeholder="Kelime ara">
+	<button type="submit">Ara</button>
+</form>
+
+@if (Model.Results != null && Model.Results.Any())
+{
+	<h3>Sonuçlar</h3>
+	<ul>
+		@foreach (var link in Model.Results)
+		{
+			<li>
+				<a href="@link" target="_blank">@link</a>
+			</li>
+		}
+	</ul>
+}
+else
+{
+	<p>Hiçbir sonuç bulunamadı.</p>
+}
